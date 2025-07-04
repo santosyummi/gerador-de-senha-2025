@@ -2,10 +2,10 @@
 
 :root{
     --branco: white;
-    --cor-de-fundo: #00162E;
-    --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
+    --cor-de-fundo: #20123b;
+    --fundo-senha: #330e64;
+    --fundo-texto: #241442;
+    --borda: #00b7ff;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
@@ -58,12 +58,14 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .parametro{
     background-color: var(--fundo-texto);
     border: 2px solid var(--borda);
     margin-top: 32px;
     padding: 24px;
 }
+
 .parametro-senha-botoes{
     display: flex;
     justify-content: center;
@@ -77,6 +79,7 @@ body{
     font-size: 24px;
     cursor:pointer;
 }
+
 .parametro-senha__texto{
     padding: 24px;
     border-top: 2px solid var(--borda);
@@ -84,6 +87,7 @@ body{
     margin: 0;
     font-size: 24px;
 }
+
 .parametro-titulo{
     font-family: var(--roboto-mono);
     font-size: 28px;
@@ -98,9 +102,20 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+
 .parametro-senha{
     width: 50%;
     margin: 0 auto;
+}
+
+label{
+    font-size: 20-px;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
